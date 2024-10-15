@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            flex-flow: row-reverse;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+        }
+        #c1{
+            background-color: red;
+            color: aliceblue;
+        }
+        #c2{
+            color: antiquewhite;
+            background-color: black;
+
+        }
+        #c3{
+            color: azure;
+            background-color: blue;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h2>flex concepts</h2>
+    <div class="container">
+       <div id="c1" class="child">one</div>
+       <div id="c2"class="child">two</div>
+       <div id="c3" class="child">three</div>
+    </div>
+</body>
+</html>
